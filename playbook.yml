@@ -4,3 +4,5 @@
   tasks:
     - name: uupdate repos
       command: apt update
+    - name: uupdate repos
+      command: vi jo.sh
