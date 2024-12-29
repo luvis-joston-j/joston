@@ -1,0 +1,6 @@
+- name: my play to project 2
+  hosts: jos
+  become: true
+  tasks:
+    - name: uupdate repos
+      command: apt update
